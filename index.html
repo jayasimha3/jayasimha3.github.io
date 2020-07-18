@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Rishee Jayasimha's Website</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Personal Website/Portfolio for Rishee Jayasimha">
+  <meta name="author" content="Rishee Jayasimha">
+  <title>Rishee Jayasimha</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- Header -- Navbar -->
+  <nav class="navbar sticky-top navbar-dark bg-dark navbar-expand-lg">
+    <a class="navbar-brand" onclick="changeActive()" href="#">RISHEE JAYASIMHA</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item" id="aboutNavbar">
+          <a class="nav-link" href="/about">About</a>
+        </li>
+        <li class="nav-item" id="weNavbar">
+          <a class="nav-link" href="/work-experience">Work Experience</a>
+        </li>
+        <li class="nav-item" id="projectsNavbar">
+          <a class="nav-link" href="/projects">Projects</a>
+        </li>
+        <li class="nav-item" id="extraNavbar">
+          <a class="nav-link" href="/extracurricular">Extracurricular Activites</a>
+        </li>
+      </ul>
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Contact">Contact</button>
+    </div>
+  </nav>
+  </head>
+
+  <!-- Modal -->
+  <div class="modal fade" id="Contact" tabindex="-1" role="dialog" aria-labelledby="ContactTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="ContactTitle">Contact</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <h6 class="text-break font-weight-light">
+                Please Note that the form below is still under development 
+                and will not work. To contact me, please use one of the following: <br>
+                <a class="font-weight-bold" href="https://www.linkedin.com/in/jayasimha3/">LinkedIn Profile</a> <br> 
+                <a class="font-weight-bold" href="https://osu.joinhandshake.com/users/11578467">Handshake Profile</a> <br>
+                <a class="font-weight-bold" href="mailto:jayasimha.3@osu.edu">Email</a>
+                <hr class="my-4">
+              </h6>
+              <h6 class="text-break font-weight-light">
+                Please fill out your name, email address, and a short message indicating why you would like to contact me.
+                I will respond through email within 2 business days, and will attach my resume if requested. If you would like an alternate means of contacting me,
+                please take a look at my <a class="font-weight-bold" href="https://www.linkedin.com/in/jayasimha3/">LinkedIn Profile</a> or my 
+                <a class="font-weight-bold" href="https://osu.joinhandshake.com/users/11578467">Handshake Profile</a>.
+                <hr class="my-4">
+              </h6>
+            </div>
+            <div class="form-group">
+              <label for="Name">Name (First and Last)</label>
+              <input type="name" class="form-control" id="Name" aria-describedby="nameHelp">
+              <label for="Email">Email Address</label>
+              <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+              <hr class="my-4">
+              <label for="Message">Type your message here:</label>
+              <textarea class="form-control" id="Message" rows="3"></textarea>
+            </div>
+            <button type="submit" onclick="submitContactForm()" class="btn btn-primary" data-dismiss="modal" id="submit">Submit</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="alert alert-success alert-dismissible fade show" style="display:none;" role="alert" id="confirmation_alert">
+    <strong>Success!</strong> Your information has been submitted. Look for a response within 2 business days.
+    <button type="button" onclick="hideconfirmation()" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button> <!-- Show when contact info has been submitted! -->
+  </div>
+
+  <body id="body" onload="changeActive()">
+    <br>
+    <app-root></app-root>
+    <br>
+  <script src="runtime-es2015.js" type="module"></script><script src="runtime-es5.js" nomodule defer></script><script src="polyfills-es5.js" nomodule defer></script><script src="polyfills-es2015.js" type="module"></script><script src="styles-es2015.js" type="module"></script><script src="styles-es5.js" nomodule defer></script><script src="scripts.js" defer></script><script src="vendor-es2015.js" type="module"></script><script src="vendor-es5.js" nomodule defer></script><script src="main-es2015.js" type="module"></script><script src="main-es5.js" nomodule defer></script></body>
+
+  <!-- Footer -->
+  <footer class="navbar navbar-dark bg-dark navbar-expand-lg">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <a class="navbar-brand" href="https://github.com/jayasimha3">
+          <img src="/icons/github_dark.svg" alt="" width="32" height="32" title="Github">
+        </a>
+        <a class="navbar-brand" href="https://www.linkedin.com/in/jayasimha3/">
+          <img src="/icons/linkedin.svg" alt="" width="32" height="32" title="LinkedIn">
+        </a>
+        <a class="navbar-brand" href="https://osu.joinhandshake.com/users/11578467">
+          <img src="/icons/handshake.svg" alt="" width="32" height="32" title="Handshake">
+        </a>
+      </ul>
+      <ul class="navbar-nav mr-auto">
+        <div class="custom-control custom-switch">
+          <input type="checkbox" class="custom-control-input" id="darkSwitch" />
+          <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
+        </div>
+      </ul>
+        <span class="navbar-text">
+          Rishee Jayasimha | 
+          <a class="text-monospace text-muted" href="https://github.com/jayasimha3/PersonalWebsite/releases">Version 0.6</a>
+        </span>
+    </div>
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script>
+    var firstLoad = localStorage.getItem("firstLoad") || true;
+    if (firstLoad === true) {
+      var dark = "dark";
+      localStorage.setItem("darkSwitch", dark);
+    }
+    firstLoad = false
+    localStorage.setItem("firstLoad", firstLoad);
+  </script>
+</body>
+</html>
