@@ -587,15 +587,15 @@
   /***/
   function _(module, exports, __webpack_require__) {
     __webpack_require__(
-    /*! /mnt/e/user items/my docs/Website/PersonalWebsite/demo/src/styles.css */
+    /*! /mnt/e/user items/my docs/website/PersonalWebsite/demo/src/styles.css */
     "./src/styles.css");
 
     __webpack_require__(
-    /*! /mnt/e/user items/my docs/Website/PersonalWebsite/demo/node_modules/bootstrap/dist/css/bootstrap.min.css */
+    /*! /mnt/e/user items/my docs/website/PersonalWebsite/demo/node_modules/bootstrap/dist/css/bootstrap.min.css */
     "./node_modules/bootstrap/dist/css/bootstrap.min.css");
 
     module.exports = __webpack_require__(
-    /*! /mnt/e/user items/my docs/Website/PersonalWebsite/demo/src/css/dark-mode.css */
+    /*! /mnt/e/user items/my docs/website/PersonalWebsite/demo/src/css/dark-mode.css */
     "./src/css/dark-mode.css");
     /***/
   }
