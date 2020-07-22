@@ -1186,6 +1186,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! @angular/core */
     "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/router */
+    "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
 
     var HomeComponent = /*#__PURE__*/function () {
       function HomeComponent() {
@@ -1209,7 +1215,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       selectors: [["app-home"]],
       decls: 19,
       vars: 0,
-      consts: [[1, "container-xl", 2, "height", "83vh"], ["role", "main", 1, "inner", "cover"], [1, "card", "mb-3", "main-card", "border-0"], [1, "row", "no-gutters"], [1, "col-md-8"], [1, "card-body"], [1, "cover-heading"], [1, "lead"], [1, "home", "text-muted"], ["href", "/about", 1, "btn", "btn-lg", "btn-secondary"], [1, "col-md-4"], ["src", "./assets/me/jayasimharishee.jpg", "alt", "Rishee Jayasimha", 1, "card-img"]],
+      consts: [[1, "container-xl", 2, "height", "83vh"], ["role", "main", 1, "inner", "cover"], [1, "card", "mb-3", "main-card", "border-0"], [1, "row", "no-gutters"], [1, "col-md-8"], [1, "card-body"], [1, "cover-heading"], [1, "lead"], [1, "home", "text-muted"], ["routerLink", "/about", 1, "btn", "btn-lg", "btn-secondary"], [1, "col-md-4"], ["src", "./assets/me/jayasimharishee.jpg", "alt", "Rishee Jayasimha", 1, "card-img"]],
       template: function HomeComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
@@ -1277,6 +1283,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         }
       },
+      directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkWithHref"]],
       styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2hvbWUvaG9tZS5jb21wb25lbnQuY3NzIn0= */"]
     });
     /*@__PURE__*/
@@ -2367,7 +2374,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
   /***/
   function _(module, exports, __webpack_require__) {
     module.exports = __webpack_require__(
-    /*! /mnt/e/user items/my docs/website/PersonalWebsite/demo/src/main.ts */
+    /*! /mnt/e/user items/my docs/website/personalwebsite/demo/src/main.ts */
     "./src/main.ts");
     /***/
   }
