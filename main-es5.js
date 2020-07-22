@@ -104,7 +104,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "h6", 5);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "I am currently unemployed and looking for an opportunity to apply my skills at an ambitious company.");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "I am currently looking for ppportunities to apply my skills at an ambitious company.");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -599,7 +599,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony import */
 
 
-    var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    var _navbar_navbar_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! ./navbar/navbar.component */
+    "./src/app/navbar/navbar.component.ts");
+    /* harmony import */
+
+
+    var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
     /*! @angular/router */
     "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
 
@@ -617,14 +623,20 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
       type: AppComponent,
       selectors: [["app-root"]],
-      decls: 1,
+      decls: 4,
       vars: 0,
       template: function AppComponent_Template(rf, ctx) {
         if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "router-outlet");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-navbar");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "router-outlet");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "br");
         }
       },
-      directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterOutlet"]],
+      directives: [_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_1__["NavbarComponent"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterOutlet"]],
       styles: ["[data-theme=\"dark\"][_ngcontent-%COMP%] {\r\n    background-color: #111 !important;\r\n    color: #eee;\r\n  }\r\n  \r\n  [data-theme=\"dark\"][_ngcontent-%COMP%]   .bg-light[_ngcontent-%COMP%] {\r\n    background-color: #333 !important;\r\n  }\r\n  \r\n  [data-theme=\"dark\"][_ngcontent-%COMP%]   .bg-white[_ngcontent-%COMP%] {\r\n    background-color: #000 !important;\r\n  }\r\n  \r\n  [data-theme=\"dark\"][_ngcontent-%COMP%]   .bg-black[_ngcontent-%COMP%] {\r\n    background-color: #eee !important;\r\n  }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxpQ0FBaUM7SUFDakMsV0FBVztFQUNiOztFQUVBO0lBQ0UsaUNBQWlDO0VBQ25DOztFQUVBO0lBQ0UsaUNBQWlDO0VBQ25DOztFQUVBO0lBQ0UsaUNBQWlDO0VBQ25DIiwiZmlsZSI6InNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJbZGF0YS10aGVtZT1cImRhcmtcIl0ge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogIzExMSAhaW1wb3J0YW50O1xyXG4gICAgY29sb3I6ICNlZWU7XHJcbiAgfVxyXG4gIFxyXG4gIFtkYXRhLXRoZW1lPVwiZGFya1wiXSAuYmctbGlnaHQge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogIzMzMyAhaW1wb3J0YW50O1xyXG4gIH1cclxuICBcclxuICBbZGF0YS10aGVtZT1cImRhcmtcIl0gLmJnLXdoaXRlIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICMwMDAgIWltcG9ydGFudDtcclxuICB9XHJcbiAgXHJcbiAgW2RhdGEtdGhlbWU9XCJkYXJrXCJdIC5iZy1ibGFjayB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZWVlICFpbXBvcnRhbnQ7XHJcbiAgfSJdfQ== */"]
     });
     /*@__PURE__*/
@@ -722,6 +734,18 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     var _home_home_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
     /*! ./home/home.component */
     "./src/app/home/home.component.ts");
+    /* harmony import */
+
+
+    var _navbar_navbar_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
+    /*! ./navbar/navbar.component */
+    "./src/app/navbar/navbar.component.ts");
+    /* harmony import */
+
+
+    var _footer_footer_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
+    /*! ./footer/footer.component */
+    "./src/app/footer/footer.component.ts");
 
     var routes = [{
       path: '',
@@ -742,6 +766,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     }, {
       path: '',
       component: _home_home_component__WEBPACK_IMPORTED_MODULE_9__["HomeComponent"]
+    }, {
+      path: '#',
+      redirectTo: 'home',
+      pathMatch: 'full'
     }];
     var routerOptions = {
       useHash: false,
@@ -771,7 +799,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     (function () {
       (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](AppModule, {
-        declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _about_about_component__WEBPACK_IMPORTED_MODULE_5__["AboutComponent"], _work_experience_work_experience_component__WEBPACK_IMPORTED_MODULE_6__["WorkExperienceComponent"], _projects_projects_component__WEBPACK_IMPORTED_MODULE_7__["ProjectsComponent"], _extracurricular_extracurricular_component__WEBPACK_IMPORTED_MODULE_8__["ExtracurricularComponent"], _home_home_component__WEBPACK_IMPORTED_MODULE_9__["HomeComponent"]],
+        declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _about_about_component__WEBPACK_IMPORTED_MODULE_5__["AboutComponent"], _work_experience_work_experience_component__WEBPACK_IMPORTED_MODULE_6__["WorkExperienceComponent"], _projects_projects_component__WEBPACK_IMPORTED_MODULE_7__["ProjectsComponent"], _extracurricular_extracurricular_component__WEBPACK_IMPORTED_MODULE_8__["ExtracurricularComponent"], _home_home_component__WEBPACK_IMPORTED_MODULE_9__["HomeComponent"], _navbar_navbar_component__WEBPACK_IMPORTED_MODULE_10__["NavbarComponent"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_11__["FooterComponent"]],
         imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"]],
         exports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"]]
       });
@@ -783,7 +811,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](AppModule, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"],
         args: [{
-          declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _about_about_component__WEBPACK_IMPORTED_MODULE_5__["AboutComponent"], _work_experience_work_experience_component__WEBPACK_IMPORTED_MODULE_6__["WorkExperienceComponent"], _projects_projects_component__WEBPACK_IMPORTED_MODULE_7__["ProjectsComponent"], _extracurricular_extracurricular_component__WEBPACK_IMPORTED_MODULE_8__["ExtracurricularComponent"], _home_home_component__WEBPACK_IMPORTED_MODULE_9__["HomeComponent"]],
+          declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _about_about_component__WEBPACK_IMPORTED_MODULE_5__["AboutComponent"], _work_experience_work_experience_component__WEBPACK_IMPORTED_MODULE_6__["WorkExperienceComponent"], _projects_projects_component__WEBPACK_IMPORTED_MODULE_7__["ProjectsComponent"], _extracurricular_extracurricular_component__WEBPACK_IMPORTED_MODULE_8__["ExtracurricularComponent"], _home_home_component__WEBPACK_IMPORTED_MODULE_9__["HomeComponent"], _navbar_navbar_component__WEBPACK_IMPORTED_MODULE_10__["NavbarComponent"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_11__["FooterComponent"]],
           imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"].forRoot(routes, routerOptions)],
           exports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"]],
           providers: [],
@@ -843,7 +871,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       selectors: [["app-extracurricular"]],
       decls: 86,
       vars: 0,
-      consts: [[1, "container-lg"], [1, "card", "border-light", "mb-3", 2, "max-width", "100%"], [1, "card-body", "text-dark"], [1, "media"], ["src", "/assets/extracurricular/lab6_maze.PNG", "alt", "Maze", 1, "mr-3"], [1, "media-body"], [1, "text-break"], [1, "font-weight-lighter", "text-break"], [1, "list-group"], [1, "row", "px-3"], ["src", "/assets/extracurricular/trumpet.svg", "width", "100", "height", "100", "alt", "Trumpet", 1, "mr-3"], ["src", "/assets/extracurricular/computer.JPG", "alt", "Computer", 1, "mr-3"], [1, "font-italic"], ["src", "/assets/extracurricular/robot.svg", "width", "100", "height", "100", "alt", "AI", 1, "mr-3"], ["src", "/assets/extracurricular/ps4_die.JPG", "width", "100", "height", "100", "alt", "AI", 1, "mr-3"], ["src", "/assets/extracurricular/tennisracquet.svg", "width", "100", "height", "100", "alt", "Tennis", 1, "mr-3"], ["src", "/assets/extracurricular/boardgame.svg", "width", "100", "height", "100", "alt", "Tennis", 1, "mr-3"]],
+      consts: [[1, "container-lg"], [1, "card", "border-light", "mb-3", 2, "max-width", "100%"], [1, "card-body", "text-dark"], [1, "media"], ["src", "/assets/extracurricular/lab6_maze.png", "alt", "Maze", 1, "mr-3"], [1, "media-body"], [1, "text-break"], [1, "font-weight-lighter", "text-break"], [1, "list-group"], [1, "row", "px-3"], ["src", "/assets/extracurricular/trumpet.svg", "width", "100", "height", "100", "alt", "Trumpet", 1, "mr-3"], ["src", "/assets/extracurricular/computer.jpg", "alt", "Computer", 1, "mr-3"], [1, "font-italic"], ["src", "/assets/extracurricular/robot.svg", "width", "100", "height", "100", "alt", "AI", 1, "mr-3"], ["src", "/assets/extracurricular/ps4_die.jpg", "width", "100", "height", "100", "alt", "AI", 1, "mr-3"], ["src", "/assets/extracurricular/tennisracquet.svg", "width", "100", "height", "100", "alt", "Tennis", 1, "mr-3"], ["src", "/assets/extracurricular/boardgame.svg", "width", "100", "height", "100", "alt", "Tennis", 1, "mr-3"]],
       template: function ExtracurricularComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
@@ -1162,6 +1190,83 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
   },
 
   /***/
+  "./src/app/footer/footer.component.ts":
+  /*!********************************************!*\
+    !*** ./src/app/footer/footer.component.ts ***!
+    \********************************************/
+
+  /*! exports provided: FooterComponent */
+
+  /***/
+  function srcAppFooterFooterComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "FooterComponent", function () {
+      return FooterComponent;
+    });
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+
+    var FooterComponent = /*#__PURE__*/function () {
+      function FooterComponent() {
+        _classCallCheck(this, FooterComponent);
+      }
+
+      _createClass(FooterComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {}
+      }]);
+
+      return FooterComponent;
+    }();
+
+    FooterComponent.ɵfac = function FooterComponent_Factory(t) {
+      return new (t || FooterComponent)();
+    };
+
+    FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
+      type: FooterComponent,
+      selectors: [["app-footer"]],
+      decls: 2,
+      vars: 0,
+      template: function FooterComponent_Template(rf, ctx) {
+        if (rf & 1) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "footer works!");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        }
+      },
+      styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2Zvb3Rlci9mb290ZXIuY29tcG9uZW50LmNzcyJ9 */"]
+    });
+    /*@__PURE__*/
+
+    (function () {
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](FooterComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+          selector: 'app-footer',
+          templateUrl: './footer.component.html',
+          styleUrls: ['./footer.component.css']
+        }]
+      }], function () {
+        return [];
+      }, null);
+    })();
+    /***/
+
+  },
+
+  /***/
   "./src/app/home/home.component.ts":
   /*!****************************************!*\
     !*** ./src/app/home/home.component.ts ***!
@@ -1250,7 +1355,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "p", 8);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, " I am currently unemployed and looking to apply what I have learned and be challenged at an amibitious company. ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, " I am currently looking for opportunities to apply what I have learned and be challenged at an amibitious company. ");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -1295,6 +1400,155 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           selector: 'app-home',
           templateUrl: './home.component.html',
           styleUrls: ['./home.component.css']
+        }]
+      }], function () {
+        return [];
+      }, null);
+    })();
+    /***/
+
+  },
+
+  /***/
+  "./src/app/navbar/navbar.component.ts":
+  /*!********************************************!*\
+    !*** ./src/app/navbar/navbar.component.ts ***!
+    \********************************************/
+
+  /*! exports provided: NavbarComponent */
+
+  /***/
+  function srcAppNavbarNavbarComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "NavbarComponent", function () {
+      return NavbarComponent;
+    });
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/router */
+    "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+
+    var NavbarComponent = /*#__PURE__*/function () {
+      function NavbarComponent() {
+        _classCallCheck(this, NavbarComponent);
+      }
+
+      _createClass(NavbarComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {}
+      }]);
+
+      return NavbarComponent;
+    }();
+
+    NavbarComponent.ɵfac = function NavbarComponent_Factory(t) {
+      return new (t || NavbarComponent)();
+    };
+
+    NavbarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
+      type: NavbarComponent,
+      selectors: [["app-navbar"]],
+      decls: 21,
+      vars: 0,
+      consts: [[1, "navbar", "sticky-top", "navbar-dark", "bg-dark", "navbar-expand-lg"], ["onclick", "changeActive()", "routerLink", "", 1, "navbar-brand"], ["type", "button", "data-toggle", "collapse", "data-target", "#navbarSupportedContent", "aria-controls", "navbarSupportedContent", "aria-expanded", "false", "aria-label", "Toggle navigation", 1, "navbar-toggler"], [1, "navbar-toggler-icon"], ["id", "navbarSupportedContent", 1, "collapse", "navbar-collapse"], [1, "navbar-nav", "mr-auto"], ["id", "aboutNavbar", 1, "nav-item"], ["routerLink", "/about", 1, "nav-link"], ["id", "weNavbar", 1, "nav-item"], ["routerLink", "/work-experience", 1, "nav-link"], ["id", "projectsNavbar", 1, "nav-item"], ["routerLink", "/projects", 1, "nav-link"], ["id", "extraNavbar", 1, "nav-item"], ["routerLink", "/extracurricular", 1, "nav-link"], ["type", "button", "data-toggle", "modal", "data-target", "#Contact", 1, "btn", "btn-primary"]],
+      template: function NavbarComponent_Template(rf, ctx) {
+        if (rf & 1) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "nav", 0);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "a", 1);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "RISHEE JAYASIMHA");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "button", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "span", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "ul", 5);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "li", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "a", 7);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "About");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "li", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "a", 9);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "Work Experience");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "li", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "a", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, "Projects");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "li", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "a", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "Extracurricular Activites");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "button", 14);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, "Contact");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        }
+      },
+      directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkWithHref"]],
+      styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL25hdmJhci9uYXZiYXIuY29tcG9uZW50LmNzcyJ9 */"]
+    });
+    /*@__PURE__*/
+
+    (function () {
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](NavbarComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+          selector: 'app-navbar',
+          templateUrl: './navbar.component.html',
+          styleUrls: ['./navbar.component.css']
         }]
       }], function () {
         return [];
@@ -2049,7 +2303,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "h6", 3);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, "I am currently unemployed and looking for an opportunity to apply my skills at an ambitious company.");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, "I am currently looking for an opportunities to apply my skills at an ambitious company.");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
