@@ -19,6 +19,7 @@
 </head>
 
   <!-- Modal -->
+  <!--
   <div class="modal fade" id="Contact" tabindex="-1" role="dialog" aria-labelledby="ContactTitle" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -64,7 +65,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div>-->
 
   <div class="alert alert-success alert-dismissible fade show" style="display:none;" role="alert" id="confirmation_alert">
     <strong>Success!</strong> Your information has been submitted. Look for a response within 2 business days.
@@ -124,6 +125,16 @@
     }
     firstLoad = false
     localStorage.setItem("firstLoad", firstLoad);
+  </script>
+  <script>
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+  </script>
+  <script>
+    $(function () {
+     $('[data-toggle="popover"]').popover()
+    })
   </script>
 </body>
 </html>
