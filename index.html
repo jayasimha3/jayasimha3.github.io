@@ -1,116 +1,23 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 
 <head>
   <meta charset="utf-8">
   <title>Rishee Jayasimha's Website</title>
   <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="initial-scale=1, width=device-width, height=device-height">
   <meta name="description" content="Personal Website/Portfolio for Rishee Jayasimha">
   <meta name="author" content="Rishee Jayasimha">
   <title>Rishee Jayasimha</title>
 
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 </head>
 
-  <!-- Modal -->
-  <!--
-  <div class="modal fade" id="Contact" tabindex="-1" role="dialog" aria-labelledby="ContactTitle" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="ContactTitle">Contact</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <form>
-            <div class="form-group">
-              <h6 class="text-break font-weight-light">
-                Please Note that the form below is still under development 
-                and will not work. To contact me, please use one of the following: <br>
-                <a class="font-weight-bold" href="https://www.linkedin.com/in/jayasimha3/">LinkedIn Profile</a> <br> 
-                <a class="font-weight-bold" href="https://osu.joinhandshake.com/users/11578467">Handshake Profile</a> <br>
-                <a class="font-weight-bold" href="mailto:jayasimha.3@osu.edu">Email</a>
-                <hr class="my-4">
-              </h6>
-              <h6 class="text-break font-weight-light">
-                Please fill out your name, email address, and a short message indicating why you would like to contact me.
-                I will respond through email within 2 business days, and will attach my resume if requested. If you would like an alternate means of contacting me,
-                please take a look at my <a class="font-weight-bold" href="https://www.linkedin.com/in/jayasimha3/">LinkedIn Profile</a> or my 
-                <a class="font-weight-bold" href="https://osu.joinhandshake.com/users/11578467">Handshake Profile</a>.
-                <hr class="my-4">
-              </h6>
-            </div>
-            <div class="form-group">
-              <label for="Name">Name (First and Last)</label>
-              <input type="name" class="form-control" id="Name" aria-describedby="nameHelp">
-              <label for="Email">Email Address</label>
-              <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
-              <hr class="my-4">
-              <label for="Message">Type your message here:</label>
-              <textarea class="form-control" id="Message" rows="3"></textarea>
-            </div>
-            <button type="submit" onclick="submitContactForm()" class="btn btn-primary" data-dismiss="modal" id="submit">Submit</button>
-          </form>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>-->
-
-  <div class="alert alert-success alert-dismissible fade show" style="display:none;" role="alert" id="confirmation_alert">
-    <strong>Success!</strong> Your information has been submitted. Look for a response within 2 business days.
-    <button type="button" onclick="hideconfirmation()" class="close" data-dismiss="alert" aria-label="Close">
-      <span aria-hidden="true">&times;</span>
-    </button> <!-- Show when contact info has been submitted! -->
-  </div>
-
-  <body id="body" onload="changeActive()">
+  <body id="body" data-theme="dark">
     <app-root></app-root>
   <script src="runtime-es2015.js" type="module"></script><script src="runtime-es5.js" nomodule defer></script><script src="polyfills-es5.js" nomodule defer></script><script src="polyfills-es2015.js" type="module"></script><script src="styles-es2015.js" type="module"></script><script src="styles-es5.js" nomodule defer></script><script src="scripts.js" defer></script><script src="vendor-es2015.js" type="module"></script><script src="vendor-es5.js" nomodule defer></script><script src="main-es2015.js" type="module"></script><script src="main-es5.js" nomodule defer></script></body>
-
-  <!-- Footer -->
-  <footer class="navbar navbar-dark bg-dark navbar-expand-lg">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <a class="navbar-brand" href="https://github.com/jayasimha3">
-          <img src="/icons/github_dark.svg" alt="" width="32" height="32" title="Github">
-        </a>
-        <a class="navbar-brand" href="https://www.linkedin.com/in/jayasimha3/">
-          <img src="/icons/linkedin.svg" alt="" width="32" height="32" title="LinkedIn">
-        </a>
-        <a class="navbar-brand" href="https://osu.joinhandshake.com/users/11578467">
-          <img src="/icons/handshake.svg" alt="" width="32" height="32" title="Handshake">
-        </a>
-        <a class="navbar-brand" href="https://my.indeed.com/p/risheej-w1nbb5b">
-          <img src="/icons/indeed.svg" alt="" width="64" height="32" title="Indeed">
-        </a>
-      </ul>
-      <ul class="navbar-nav mr-auto">
-        <div class="custom-control custom-switch">
-          <input type="checkbox" class="custom-control-input" id="darkSwitch" />
-          <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
-        </div>
-      </ul>
-        <span class="navbar-text">
-          Rishee Jayasimha | 
-          <a class="text-monospace text-muted" href="https://github.com/jayasimha3/PersonalWebsite/releases">Version 2.dev</a>
-        </span>
-    </div>
-  </footer>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -125,6 +32,7 @@
     }
     firstLoad = false
     localStorage.setItem("firstLoad", firstLoad);
+    //darkSwitch.checked = dark;
   </script>
   <script>
     $(function () {
@@ -136,5 +44,4 @@
      $('[data-toggle="popover"]').popover()
     })
   </script>
-</body>
 </html>

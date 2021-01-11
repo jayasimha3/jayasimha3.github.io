@@ -37,25 +37,23 @@
 }
 
 .badge-dark {
-  background-color: #ff0000 !important;
+  background-color: #0c57ed !important;
   color: #eeeeee;
 }
 
 .btn-dark {
-  background-color: #ff0000 !important;
-  color: #eeeeee;
-  border: #48515a;
-}
-
-.badge-light {
-  background-color: #006836 !important;
+  background-color: #0c57ed !important;
   color: #eeeeee;
 }
 
-.btn-light {
-  background-color: #006836 !important;
+.badge-success {
+  background-color: #0b4bcb !important;
   color: #eeeeee;
-  border: #48515a;
+}
+
+.btn-success {
+  background-color: #0b4bcb !important;
+  color: #eeeeee;
 }
 
 [data-theme="dark"] .text-dark {
@@ -77,7 +75,7 @@
   color: #eee !important;
 }
 
-.btn-primary {
+[data-theme="dark"] .btn-primary {
   color: #eeeeee;
 }
 

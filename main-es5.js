@@ -84,7 +84,7 @@
         selectors: [["app-about"]],
         decls: 127,
         vars: 0,
-        consts: [[1, "container-xl"], [1, "card", "mb-3", 2, "max-width", "100%"], [1, "card-header"], [1, "mt-0", "text-uppercase", "font-weight-bold"], [1, "card-body", "text-dark"], [1, "media"], ["src", "/assets/gm/gm.jpg", "alt", "General Motors", 1, "mr-3"], [1, "media-body"], ["type", "button", 1, "btn", "btn-primary", "float-right", "btn-sm"], [1, "badge", "badge-light"], [1, "text-break"], [1, "font-italic"], [1, "card-footer"], ["href", "./work-experience", 1, "card-link"], ["src", "/assets/ohiostate/blockO.png", "alt", "The Ohio State University", 1, "mr-3"], [1, "font-weight-lighter", "text-break"], [1, "card"], [1, "card-body"], [1, "card-title"], [1, "card-subtitle", "mb-2", "text-muted"], [1, "badge", "badge-dark"], [1, "card-text"], ["role", "group", "aria-label", "Primary Languages", 1, "btn-group", "mr-2", "text-wrap", "d-flex"], ["type", "button", 1, "btn", "btn-dark"], ["role", "group", "aria-label", "Secondary Languages and Other Software", 1, "btn-group", "mr-2", "btn-group-sm", "text-wrap", "d-flex"], ["type", "button", 1, "btn", "btn-light"], [1, "badge", "badge-primary"], ["role", "group", "aria-label", "CSE Courses 0", 1, "btn-group", "mr-2", "btn-group-sm", "text-wrap", "d-flex"], ["type", "button", 1, "btn", "btn-primary"], ["role", "group", "aria-label", "CSE Courses 1", 1, "btn-group", "mr-2", "btn-group-sm", "text-wrap", "d-flex"], ["role", "group", "aria-label", "Other Courses", 1, "btn-group", "mr-2", "btn-group-sm", "text-wrap", "d-flex"]],
+        consts: [["flex", "", 1, "container-xl"], [1, "card", "mb-3", 2, "max-width", "100%"], [1, "card-header"], [1, "mt-0", "text-uppercase", "font-weight-bold"], [1, "card-body", "text-dark"], [1, "media"], ["src", "/assets/gm/gm.jpg", "alt", "General Motors", 1, "mr-3"], [1, "media-body"], ["type", "button", 1, "btn", "btn-primary", "float-right", "btn-sm"], [1, "badge", "badge-light"], [1, "text-break"], [1, "font-italic"], [1, "card-footer"], ["href", "./work-experience", 1, "card-link"], ["src", "/assets/ohiostate/blockO.png", "alt", "The Ohio State University", 1, "mr-3"], [1, "font-weight-lighter", "text-break"], [1, "card", "d-flex-row"], [1, "card-body"], [1, "card-title"], [1, "card-subtitle", "mb-2", "text-muted"], [1, "badge", "badge-primary"], [1, "badge", "badge-dark"], [1, "card-text"], ["role", "group", "aria-label", "Primary Languages", 1, "btn-group", "mr-2", "text-wrap", "d-flex", "flex-wrap", 2, "max-width", "100%"], ["type", "button", 1, "btn", "btn-primary"], ["role", "group", "aria-label", "Secondary Languages and Other Software", 1, "btn-group", "mr-2", "btn-group-sm", "text-wrap", "d-flex", "flex-wrap"], ["type", "button", 1, "btn", "btn-dark"], [1, "card"], [1, "badge", "badge-success"], ["role", "group", "aria-label", "CSE Courses 0", 1, "btn-group", "mr-2", "btn-group-sm", "text-wrap", "d-flex", "flex-wrap"], ["role", "group", "aria-label", "CSE Courses 1", 1, "btn-group", "mr-2", "btn-group-sm", "text-wrap", "d-flex", "flex-wrap"], ["role", "group", "aria-label", "Other Courses", 1, "btn-group", "mr-2", "btn-group-sm", "text-wrap", "d-flex", "flex-wrap"], ["type", "button", 1, "btn", "btn-success"]],
         template: function AboutComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
@@ -191,7 +191,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "h6", 11);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, "The Ohio State University, Columbus OH ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, "The Ohio State University, Columbus OH");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -239,7 +239,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "span", 9);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "span", 21);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](50, "Other Languages and Software");
 
@@ -247,47 +247,47 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](51, "p", 21);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](51, "p", 22);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](52, "div", 22);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](52, "div", 23);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "button", 23);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "button", 24);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](54, "Java");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](55, "button", 23);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](55, "button", 24);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](56, "C");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "button", 23);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "button", 24);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](58, "C#");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "button", 23);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "button", 24);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](60, "SQL");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](61, "button", 23);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](61, "button", 24);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](62, "Python");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](63, "button", 23);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](63, "button", 24);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](64, "JavaScript");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "button", 23);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "button", 24);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](66, "Ruby");
 
@@ -295,57 +295,57 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "div", 24);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "div", 25);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](68, "button", 25);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](68, "button", 26);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](69, "Arduino");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](70, "button", 25);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](70, "button", 26);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](71, "MATLAB");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](72, "button", 25);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](72, "button", 26);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](73, "HTML");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](74, "button", 25);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](74, "button", 26);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](75, "CSS");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](76, "button", 25);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](76, "button", 26);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](77, "Bootstrap");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](78, "button", 25);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](78, "button", 26);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](79, "Linux");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](80, "button", 25);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](80, "button", 26);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](81, "Angular");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](82, "button", 25);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](82, "button", 26);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](83, "Autodesk Inventor");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](84, "button", 25);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](84, "button", 26);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](85, "SOLIDWORKS");
 
@@ -357,7 +357,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](86, "div", 16);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](86, "div", 27);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](87, "div", 17);
 
@@ -375,19 +375,19 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](92, "p");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](93, "span", 26);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](93, "span", 20);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](94, "AI Specialization Required");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](95, "span", 20);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](95, "span", 21);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](96, "CSE");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](97, "span", 9);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](97, "span", 28);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](98, "Other");
 
@@ -395,23 +395,23 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](99, "p", 21);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](99, "p", 22);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](100, "div", 27);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](100, "div", 29);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](101, "button", 28);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](101, "button", 24);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](102, "Artificial Intelligence 1/2");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](103, "button", 28);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](103, "button", 24);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](104, "Machine Learning");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](105, "button", 28);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](105, "button", 24);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](106, "AI Capstone");
 
@@ -419,33 +419,33 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](107, "div", 29);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](107, "div", 30);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](108, "button", 23);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](108, "button", 26);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](109, "Database Systems");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](110, "button", 23);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](110, "button", 26);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](111, "Computer Architecture");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](112, "button", 23);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](112, "button", 26);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](113, "Automata and Formal Languages");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](114, "button", 23);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](114, "button", 26);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](115, "Game and Animation Techniques");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](116, "button", 23);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](116, "button", 26);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](117, "Project: Web Applications");
 
@@ -453,27 +453,27 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](118, "div", 30);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](118, "div", 31);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](119, "button", 25);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](119, "button", 32);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](120, "Aerospace Engineering 1");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](121, "button", 25);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](121, "button", 32);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](122, "Statics and Mechanics of Materials");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](123, "button", 25);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](123, "button", 32);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](124, "Digital Logic");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](125, "button", 25);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](125, "button", 32);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](126, "Analog Systems and Circuits");
 
@@ -615,6 +615,12 @@
       var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
       /*! @angular/router */
       "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+      /* harmony import */
+
+
+      var _footer_footer_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+      /*! ./footer/footer.component */
+      "./src/app/footer/footer.component.ts");
 
       var AppComponent = function AppComponent() {
         _classCallCheck(this, AppComponent);
@@ -630,21 +636,40 @@
       AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
         type: AppComponent,
         selectors: [["app-root"]],
-        decls: 4,
+        decls: 9,
         vars: 0,
+        consts: [["flex", "", 1, "app-body", 2, "height", "100vh"], [1, "header"], [1, "content"], [1, "footer"]],
         template: function AppComponent_Template(rf, ctx) {
           if (rf & 1) {
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-navbar");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "br");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "router-outlet");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "app-navbar", 1);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 2);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "router-outlet", 2);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "div", 3);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "app-footer", 3);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
           }
         },
-        directives: [_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_1__["NavbarComponent"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterOutlet"]],
-        styles: ["[data-theme=\"dark\"][_ngcontent-%COMP%] {\r\n    background-color: #111 !important;\r\n    color: #eee;\r\n  }\r\n  \r\n  [data-theme=\"dark\"][_ngcontent-%COMP%]   .bg-light[_ngcontent-%COMP%] {\r\n    background-color: #333 !important;\r\n  }\r\n  \r\n  [data-theme=\"dark\"][_ngcontent-%COMP%]   .bg-white[_ngcontent-%COMP%] {\r\n    background-color: #000 !important;\r\n  }\r\n  \r\n  [data-theme=\"dark\"][_ngcontent-%COMP%]   .bg-black[_ngcontent-%COMP%] {\r\n    background-color: #eee !important;\r\n  }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxpQ0FBaUM7SUFDakMsV0FBVztFQUNiOztFQUVBO0lBQ0UsaUNBQWlDO0VBQ25DOztFQUVBO0lBQ0UsaUNBQWlDO0VBQ25DOztFQUVBO0lBQ0UsaUNBQWlDO0VBQ25DIiwiZmlsZSI6InNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJbZGF0YS10aGVtZT1cImRhcmtcIl0ge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogIzExMSAhaW1wb3J0YW50O1xyXG4gICAgY29sb3I6ICNlZWU7XHJcbiAgfVxyXG4gIFxyXG4gIFtkYXRhLXRoZW1lPVwiZGFya1wiXSAuYmctbGlnaHQge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogIzMzMyAhaW1wb3J0YW50O1xyXG4gIH1cclxuICBcclxuICBbZGF0YS10aGVtZT1cImRhcmtcIl0gLmJnLXdoaXRlIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICMwMDAgIWltcG9ydGFudDtcclxuICB9XHJcbiAgXHJcbiAgW2RhdGEtdGhlbWU9XCJkYXJrXCJdIC5iZy1ibGFjayB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZWVlICFpbXBvcnRhbnQ7XHJcbiAgfSJdfQ== */"]
+        directives: [_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_1__["NavbarComponent"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterOutlet"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_3__["FooterComponent"]],
+        styles: ["[data-theme=\"dark\"][_ngcontent-%COMP%] {\r\n  background-color: #111 !important;\r\n  color: #eee;\r\n}\r\n  \r\n[data-theme=\"dark\"][_ngcontent-%COMP%]   .bg-light[_ngcontent-%COMP%] {\r\n  background-color: #333 !important;\r\n}\r\n  \r\n[data-theme=\"dark\"][_ngcontent-%COMP%]   .bg-white[_ngcontent-%COMP%] {\r\n  background-color: #000 !important;\r\n}\r\n  \r\n[data-theme=\"dark\"][_ngcontent-%COMP%]   .bg-black[_ngcontent-%COMP%] {\r\n  background-color: #eee !important;\r\n}\r\n  \r\n.app-body[_ngcontent-%COMP%] {\r\n  display: flex;\r\n  flex-flow: column;\r\n  height: 100%;\r\n}\r\n  \r\n.app-body[_ngcontent-%COMP%]   .header[_ngcontent-%COMP%] {\r\n  flex: 0 1 auto;\r\n}\r\n  \r\n.app-body[_ngcontent-%COMP%]   .content[_ngcontent-%COMP%] {\r\n  flex: 1 1 auto;\r\n  padding-top: 1vh;\r\n  padding-bottom: 1vh;\r\n}\r\n  \r\n.app-body[_ngcontent-%COMP%]   .footer[_ngcontent-%COMP%] {\r\n  flex: 0 1 auto;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxpQ0FBaUM7RUFDakMsV0FBVztBQUNiOztBQUVBO0VBQ0UsaUNBQWlDO0FBQ25DOztBQUVBO0VBQ0UsaUNBQWlDO0FBQ25DOztBQUVBO0VBQ0UsaUNBQWlDO0FBQ25DOztBQUVBO0VBQ0UsYUFBYTtFQUNiLGlCQUFpQjtFQUNqQixZQUFZO0FBQ2Q7O0FBRUE7RUFDRSxjQUFjO0FBQ2hCOztBQUNBO0VBQ0UsY0FBYztFQUNkLGdCQUFnQjtFQUNoQixtQkFBbUI7QUFDckI7O0FBQ0E7RUFDRSxjQUFjO0FBQ2hCIiwiZmlsZSI6InNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJbZGF0YS10aGVtZT1cImRhcmtcIl0ge1xyXG4gIGJhY2tncm91bmQtY29sb3I6ICMxMTEgIWltcG9ydGFudDtcclxuICBjb2xvcjogI2VlZTtcclxufVxyXG4gIFxyXG5bZGF0YS10aGVtZT1cImRhcmtcIl0gLmJnLWxpZ2h0IHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAjMzMzICFpbXBvcnRhbnQ7XHJcbn1cclxuICBcclxuW2RhdGEtdGhlbWU9XCJkYXJrXCJdIC5iZy13aGl0ZSB7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogIzAwMCAhaW1wb3J0YW50O1xyXG59XHJcbiAgXHJcbltkYXRhLXRoZW1lPVwiZGFya1wiXSAuYmctYmxhY2sge1xyXG4gIGJhY2tncm91bmQtY29sb3I6ICNlZWUgIWltcG9ydGFudDtcclxufVxyXG5cclxuLmFwcC1ib2R5IHtcclxuICBkaXNwbGF5OiBmbGV4O1xyXG4gIGZsZXgtZmxvdzogY29sdW1uO1xyXG4gIGhlaWdodDogMTAwJTtcclxufVxyXG5cclxuLmFwcC1ib2R5IC5oZWFkZXIge1xyXG4gIGZsZXg6IDAgMSBhdXRvO1xyXG59XHJcbi5hcHAtYm9keSAuY29udGVudCB7XHJcbiAgZmxleDogMSAxIGF1dG87XHJcbiAgcGFkZGluZy10b3A6IDF2aDtcclxuICBwYWRkaW5nLWJvdHRvbTogMXZoO1xyXG59XHJcbi5hcHAtYm9keSAuZm9vdGVyIHtcclxuICBmbGV4OiAwIDEgYXV0bztcclxufSJdfQ== */"]
       });
       /*@__PURE__*/
 
@@ -1242,13 +1267,78 @@
       FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
         type: FooterComponent,
         selectors: [["app-footer"]],
-        decls: 2,
+        decls: 22,
         vars: 0,
+        consts: [[1, "navbar", "navbar-dark", "bg-dark", "navbar-expand-lg", "sticky-bottom"], ["type", "button", "data-toggle", "collapse", "data-target", "#navbarSupportedContent", "aria-controls", "navbarSupportedContent", "aria-expanded", "false", "aria-label", "Toggle navigation", 1, "navbar-toggler"], [1, "navbar-toggler-icon"], ["id", "navbarSupportedContent", 1, "collapse", "navbar-collapse"], [1, "navbar-nav", "mr-auto"], ["href", "https://github.com/jayasimha3", 1, "navbar-brand"], ["src", "/icons/github_dark.svg", "alt", "", "width", "32", "height", "32", "title", "Github"], ["href", "https://www.linkedin.com/in/jayasimha3/", 1, "navbar-brand"], ["src", "/icons/linkedin.svg", "alt", "", "width", "32", "height", "32", "title", "LinkedIn"], ["href", "https://osu.joinhandshake.com/users/11578467", 1, "navbar-brand"], ["src", "/icons/handshake.svg", "alt", "", "width", "32", "height", "32", "title", "Handshake"], ["href", "https://my.indeed.com/p/risheej-w1nbb5b", 1, "navbar-brand"], ["src", "/icons/indeed.svg", "alt", "", "width", "64", "height", "32", "title", "Indeed"], ["data-toggle", "tooltip", "data-placement", "top", "title", "The switch does not work. The site is permanently dark mode in this version.", 1, "container", "d-flex", "navbar-nav", "mx-auto", "justify-content-center", "align-items-center"], [1, "custom-control", "custom-switch"], ["type", "checkbox", "id", "darkSwitch", 1, "custom-control-input"], ["for", "darkSwitch", 1, "custom-control-label"], [1, "navbar-text"], ["href", "https://github.com/jayasimha3/jayasimha3.github.io/tree/master/assets/CHANGELOG.md", 1, "text-monospace", "text-muted"]],
         template: function FooterComponent_Template(rf, ctx) {
           if (rf & 1) {
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "footer", 0);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "footer works!");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "button", 1);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "span", 2);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 3);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "ul", 4);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "a", 5);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "img", 6);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "a", 7);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "img", 8);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "a", 9);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](10, "img", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "a", 11);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](12, "img", 12);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "ul", 13);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "div", 14);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](15, "input", 15);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "label", 16);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "Dark Mode");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "span", 17);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, " Rishee Jayasimha | ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "a", 18);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "Version 2.0");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
           }
@@ -1327,7 +1417,7 @@
         selectors: [["app-home"]],
         decls: 19,
         vars: 0,
-        consts: [[1, "container-xl", 2, "height", "83vh"], ["role", "main", 1, "inner", "cover"], [1, "card", "mb-3", "main-card", "border-0"], [1, "row", "no-gutters"], [1, "col-md-8"], [1, "card-body"], [1, "cover-heading"], [1, "lead"], [1, "home", "text-muted"], ["routerLink", "/about", 1, "btn", "btn-lg", "btn-secondary"], [1, "col-md-4"], ["src", "./assets/me/jayasimharishee.jpg", "alt", "Rishee Jayasimha", 1, "card-img"]],
+        consts: [["flex", "", 1, "container-xl"], ["role", "main", 1, "inner", "cover"], [1, "card", "mb-3", "main-card", "border-0"], [1, "d-flex", "flex-wrap", "no-gutters"], [1, "col-md-8"], [1, "card-body"], [1, "cover-heading"], [1, "lead"], [1, "home", "text-muted"], ["routerLink", "/about", 1, "btn", "btn-lg", "btn-secondary"], ["flex", "", 1, "col-md-4"], ["src", "./assets/me/jayasimharishee.jpg", "alt", "Rishee Jayasimha", 1, "card-img"]],
         template: function HomeComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
@@ -1468,9 +1558,9 @@
       NavbarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
         type: NavbarComponent,
         selectors: [["app-navbar"]],
-        decls: 21,
+        decls: 17,
         vars: 0,
-        consts: [[1, "navbar", "sticky-top", "navbar-dark", "navbar-expand-lg"], ["href", "", 1, "navbar-brand"], ["src", "../assets/logo/logo_RJ.png", "alt", "", "width", "42", "height", "42", "title", "Github"], ["type", "button", "data-toggle", "collapse", "data-target", "#navbarSupportedContent", "aria-controls", "navbarSupportedContent", "aria-expanded", "false", "aria-label", "Toggle navigation", 1, "navbar-toggler"], [1, "navbar-toggler-icon"], ["id", "navbarSupportedContent", 1, "collapse", "navbar-collapse"], [1, "navbar-nav", "mr-auto"], ["id", "aboutNavbar", 1, "nav-item"], ["routerLink", "/about", 1, "nav-link"], ["id", "weNavbar", 1, "nav-item"], ["routerLink", "/work-experience", 1, "nav-link"], ["id", "projectsNavbar", 1, "nav-item"], ["routerLink", "/projects", 1, "nav-link"], ["id", "extraNavbar", 1, "nav-item"], ["routerLink", "/extracurricular", 1, "nav-link"], ["tabindex", "0", "role", "button", "data-toggle", "popover", "data-trigger", "hover focus", "data-placement", "bottom", "data-html", "true", "data-content", "<em>Email</em>: jayasimha.3@osu.edu", 1, "btn", "btn-primary"]],
+        consts: [[1, "navbar", "sticky-top", "navbar-dark", "navbar-expand-lg", "fluid"], ["routerLink", "", 1, "nav", "navbar-nav", "navbar-left", "navbar-brand"], ["src", "../assets/logo/logo_RJ.png", "alt", "", "width", "42", "height", "42", "title", "Home", "loading", "lazy"], ["type", "button", "data-toggle", "collapse", "data-target", "#navbarSupportedContent", "aria-controls", "navbarSupportedContent", "aria-expanded", "false", "aria-label", "Toggle navigation", 1, "navbar-toggler"], [1, "navbar-toggler-icon"], ["id", "navbarNavAltMarkup", 1, "collapse", "navbar-collapse"], [1, "navbar-nav", "mx-auto", "justify-content-center", "align-items-center"], ["routerLink", "/about", "id", "aboutNavbar", 1, "nav-item", "nav-link"], ["routerLink", "/work-experience", "id", "weNavbar", 1, "nav-item", "nav-link"], ["routerLink", "/projects", "id", "projectsNavbar", 1, "nav-item", "nav-link"], ["routerLink", "/extracurricular", "id", "extraNavbar", 1, "nav-item", "nav-link"], ["tabindex", "0", "role", "button", "data-toggle", "popover", "data-trigger", "hover focus", "data-placement", "bottom", "data-html", "true", "data-content", "<em>Email</em>: jayasimha.3@osu.edu", 1, "btn", "btn-primary"]],
         template: function NavbarComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "nav", 0);
@@ -1489,43 +1579,29 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 5);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "ul", 6);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 6);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "li", 7);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "a", 7);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "a", 8);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "About");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "About");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "a", 8);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "li", 9);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "a", 10);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "Work Experience");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "Work Experience");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "a", 9);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "li", 11);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "a", 12);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, "Projects");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "Projects");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "a", 10);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "li", 13);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "a", 14);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "Extracurricular Activites");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "Extracurricular Activities");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -1533,11 +1609,9 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "a", 15);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "a", 11);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, " Contact ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, " Contact ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -1545,7 +1619,7 @@
           }
         },
         directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkWithHref"]],
-        styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL25hdmJhci9uYXZiYXIuY29tcG9uZW50LmNzcyJ9 */"]
+        styles: [".navbar-nav.navbar-center[_ngcontent-%COMP%] {\r\n    position: absolute;\r\n    left: 50%;\r\n    transform: translatex(-50%);\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbmF2YmFyL25hdmJhci5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksa0JBQWtCO0lBQ2xCLFNBQVM7SUFDVCwyQkFBMkI7QUFDL0IiLCJmaWxlIjoic3JjL2FwcC9uYXZiYXIvbmF2YmFyLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIubmF2YmFyLW5hdi5uYXZiYXItY2VudGVyIHtcclxuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgIGxlZnQ6IDUwJTtcclxuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRleCgtNTAlKTtcclxufSJdfQ== */"]
       });
       /*@__PURE__*/
 
@@ -1613,7 +1687,7 @@
         selectors: [["app-projects"]],
         decls: 198,
         vars: 0,
-        consts: [[1, "container-xl"], ["id", "carouselExampleCaptions", "data-ride", "carousel", 1, "carousel", "slide"], [1, "carousel-indicators"], ["data-target", "#carouselExampleCaptions", "data-slide-to", "0", 1, "active", "bg-primary"], ["data-target", "#carouselExampleCaptions", "data-slide-to", "1", 1, "bg-primary"], ["data-target", "#carouselExampleCaptions", "data-slide-to", "2", 1, "bg-primary"], [1, "carousel-inner"], [1, "carousel-item", "active"], ["src", "/assets/projects/Website.png", "alt", "Website", 1, "d-block", "w-25", "float-right"], [1, "carousel-caption", "d-none", "d-md-block", "text-left"], [1, "text-break", "text-muted"], ["href", "/projects#Website"], ["type", "button", 1, "btn", "btn-outline-secondary", "btn-sm"], [1, "carousel-item"], ["src", "/assets/projects/KitchenAssitant.png", "alt", "Kitchen Assitant", 1, "d-block", "w-25", "float-right"], ["href", "/projects#CapstoneProject"], ["src", "/assets/projects/MLProject.png", "alt", "ML Project", 1, "d-block", "w-25", "float-right"], ["href", "/projects#MLProject"], ["id", "Website", 1, "card", "mb-3", 2, "max-width", "100%"], [1, "card-body"], [1, "card-title", "font-weight-bold"], ["type", "button", 1, "btn", "btn-sm", "btn-primary", "float-right"], [1, "badge", "badge-light"], [1, "card-text"], ["id", "CapstoneProject", 1, "card", "mb-3", 2, "max-width", "100%"], [1, "font-italic", "text-muted"], ["href", "./assets/projects/KitchenAssistantReadme.md"], ["id", "MLProject", 1, "card", "mb-3", 2, "max-width", "100%"], ["href", "./assets/projects/FinalReport_MLProject.pdf"], [1, "card", "mb-3", 2, "max-width", "100%"], ["id", "Database", 1, "card", "mb-3", 2, "max-width", "100%"], ["type", "button", "data-toggle", "modal", "data-target", "#Contact", 1, "btn", "btn-outline-secondary", "btn-sm"], ["id", "GraderApp", 1, "card", "mb-3", 2, "max-width", "100%"], ["id", "Nozzle", 1, "card", "mb-3", 2, "max-width", "100%"], ["id", "AEV", 1, "card", "mb-3", 2, "max-width", "100%"], ["id", "TrainProject", 1, "card", "mb-3", 2, "max-width", "100%"], ["id", "SLUInternship", 1, "card", "mb-3", 2, "max-width", "100%"], ["href", "https://www.sluspacelab.com/argus"], [1, "text-muted", "font-italic"], [1, "badge", "badge-info"]],
+        consts: [["flex", "", 1, "container-xl"], ["id", "carouselExampleCaptions", "data-ride", "carousel", 1, "carousel", "slide"], [1, "carousel-indicators"], ["data-target", "#carouselExampleCaptions", "data-slide-to", "0", 1, "active", "bg-primary"], ["data-target", "#carouselExampleCaptions", "data-slide-to", "1", 1, "bg-primary"], ["data-target", "#carouselExampleCaptions", "data-slide-to", "2", 1, "bg-primary"], [1, "carousel-inner"], [1, "carousel-item", "active"], ["src", "/assets/projects/Website.png", "alt", "Website", 1, "d-block", "w-25", "float-right"], [1, "carousel-caption", "d-none", "d-md-block", "text-left"], [1, "text-break", "text-muted"], ["href", "/projects#Website"], ["type", "button", 1, "btn", "btn-outline-secondary", "btn-sm"], [1, "carousel-item"], ["src", "/assets/projects/KitchenAssitant.png", "alt", "Kitchen Assitant", 1, "d-block", "w-25", "float-right"], ["href", "/projects#CapstoneProject"], ["src", "/assets/projects/MLProject.png", "alt", "ML Project", 1, "d-block", "w-25", "float-right"], ["href", "/projects#MLProject"], ["id", "Website", 1, "card", "mb-3", 2, "max-width", "100%"], [1, "card-body"], [1, "card-title", "font-weight-bold"], ["type", "button", 1, "btn", "btn-sm", "btn-primary", "float-right"], [1, "badge", "badge-light"], [1, "card-text"], ["id", "CapstoneProject", 1, "card", "mb-3", 2, "max-width", "100%"], [1, "font-italic", "text-muted"], ["href", "./assets/projects/KitchenAssistantReadme.md"], ["id", "MLProject", 1, "card", "mb-3", 2, "max-width", "100%"], ["href", "./assets/projects/FinalReport_MLProject.pdf"], [1, "card", "mb-3", 2, "max-width", "100%"], ["id", "Database", 1, "card", "mb-3", 2, "max-width", "100%"], ["type", "button", "data-toggle", "modal", "data-target", "#Contact", 1, "btn", "btn-outline-secondary", "btn-sm"], ["id", "GraderApp", 1, "card", "mb-3", 2, "max-width", "100%"], ["id", "Nozzle", 1, "card", "mb-3", 2, "max-width", "100%"], ["id", "AEV", 1, "card", "mb-3", 2, "max-width", "100%"], ["id", "TrainProject", 1, "card", "mb-3", 2, "max-width", "100%"], ["id", "SLUInternship", 1, "card", "mb-3", 2, "max-width", "100%"], ["href", "https://www.sluspacelab.com/argus"], [1, "text-muted", "font-italic"], [1, "badge", "badge-info"]],
         template: function ProjectsComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
@@ -2299,7 +2373,7 @@
         selectors: [["app-work-experience"]],
         decls: 97,
         vars: 0,
-        consts: [[1, "container-lg", 2, "height", "83vh"], [1, "jumbotron", "mb-3"], [1, "media"], ["src", "/assets/gm/gm.jpg", "alt", "General Motors", 1, "mr-3"], [1, "media-body"], [1, "lead", "text-break"], [1, "badge", "badge-primary", "float-right"], [1, "font-italic"], [1, "font-weight-light"], [1, "font-weight-normal"], [1, "my-4"], [1, "row"], [1, "col"], [1, "col-11", "justify-content-md-center"], [1, "blockquote"], [1, "mb-0"], [1, "blockquote-footer", "float-right"], [1, "card", "mb-3"], [1, "card-body", "text-dark", "text-center"], [1, "font-weight-bold"], [1, "font-weight-lighter"], ["href", "https://www.linkedin.com/in/jayasimha3/"], ["href", "https://osu.joinhandshake.com/users/11578467"], ["href", "https://my.indeed.com/p/risheej-w1nbb5b"], [1, "font-weight-muted"], [1, "card", "border-light", "mb-3", 2, "max-width", "100%"], [1, "card-body", "text-dark"], ["src", "/assets/ohiostate/blockO.png", "alt", "The Ohio State University", 1, "mr-3"], [1, "text-break"], ["type", "button", 1, "btn", "btn-sm", "btn-primary", "float-right"], [1, "badge", "badge-light"], [1, "font-weight-lighter", "text-break"], [1, "list-group"], [1, "row", "px-3"], [1, "card", "border-light", 2, "max-width", "100%"], ["src", "/assets/slu/stlouisuniv.png", "alt", "Saint Louis University", 1, "mr-3"], [1, "row", "px-3", "text-break"]],
+        consts: [["flex", "", 1, "container-xl"], [1, "jumbotron", "mb-3"], [1, "media"], ["src", "/assets/gm/gm.jpg", "alt", "General Motors", 1, "mr-3"], [1, "media-body"], [1, "lead", "text-break"], [1, "badge", "badge-primary", "float-right"], [1, "font-italic"], [1, "font-weight-light"], [1, "font-weight-normal"], [1, "my-4"], [1, "row"], [1, "col"], [1, "col-11", "justify-content-md-center"], [1, "blockquote"], [1, "mb-0"], [1, "blockquote-footer", "float-right"], [1, "card", "mb-3"], [1, "card-body", "text-dark", "text-center"], [1, "font-weight-bold"], [1, "font-weight-lighter"], ["href", "https://www.linkedin.com/in/jayasimha3/"], ["href", "https://osu.joinhandshake.com/users/11578467"], ["href", "https://my.indeed.com/p/risheej-w1nbb5b"], [1, "font-weight-muted"], [1, "card", "border-light", "mb-3", 2, "max-width", "100%"], [1, "card-body", "text-dark"], ["src", "/assets/ohiostate/blockO.png", "alt", "The Ohio State University", 1, "mr-3"], [1, "text-break"], ["type", "button", 1, "btn", "btn-sm", "btn-primary", "float-right"], [1, "badge", "badge-light"], [1, "font-weight-lighter", "text-break"], [1, "list-group"], [1, "row", "px-3"], ["src", "/assets/slu/stlouisuniv.png", "alt", "Saint Louis University", 1, "mr-3"], [1, "row", "px-3", "text-break"]],
         template: function WorkExperienceComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
@@ -2552,13 +2626,13 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](80, "div", 34);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](80, "div", 25);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](81, "div", 26);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](82, "div", 2);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](83, "img", 35);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](83, "img", 34);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](84, "div", 4);
 
@@ -2590,7 +2664,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](94, "ul", 32);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](95, "li", 36);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](95, "li", 35);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](96, " Tasked with solving the vague problem of turning a satellite on and off without entering the clean room, I built a remote on/off switch using a solenoid and pen. ");
 
@@ -2729,7 +2803,7 @@
     /***/
     function _(module, exports, __webpack_require__) {
       module.exports = __webpack_require__(
-      /*! /mnt/e/user items/my docs/website/PersonalWebsite/src/main.ts */
+      /*! /mnt/e/user items/my docs/website/personalwebsite/src/main.ts */
       "./src/main.ts");
       /***/
     }

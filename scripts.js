@@ -1,42 +1,4 @@
-(function() {
-  var darkSwitch = document.getElementById("darkSwitch");
-  if (darkSwitch) {
-    initTheme();
-    darkSwitch.addEventListener("change", function(event) {
-      resetTheme();
-    });
-    function initTheme() {
-      var darkThemeSelected =
-        localStorage.getItem("darkSwitch") !== null &&
-        localStorage.getItem("darkSwitch") === "dark";
-      darkSwitch.checked = darkThemeSelected;
-      darkThemeSelected
-        ? document.body.setAttribute("data-theme", "dark")
-        : document.body.removeAttribute("data-theme");
-    }
-    function resetTheme() {
-      if (darkSwitch.checked) {
-        document.body.setAttribute("data-theme", "dark");
-        localStorage.setItem("darkSwitch", "dark");
-      } else {
-        document.body.removeAttribute("data-theme");
-        localStorage.removeItem("darkSwitch");
-      }
-    }
-  }
-})();
-
-;!function(){
-    var t, e = document.getElementById("darkSwitch");
-    if (e) {
-        t = null !== localStorage.getItem("darkSwitch") && "dark" === localStorage.getItem("darkSwitch"),
-        (e.checked = t)?document.body.setAttribute("data-theme", "dark") : document.body.removeAttribute("data-theme"),
-        e.addEventListener("change", function(t){
-            e.checked?(document.body.setAttribute("data-theme", "dark"), localStorage.setItem("darkSwitch", "dark")) :
-            (document.body.removeAttribute("data-theme"), localStorage.removeItem("darkSwitch"))
-        })
-    }
-}();
+const darkSwitch=document.getElementById("darkSwitch");function initTheme(){const e=null!==localStorage.getItem("darkSwitch")&&"dark"===localStorage.getItem("darkSwitch");darkSwitch.checked=e,e?document.body.setAttribute("data-theme","dark"):document.body.removeAttribute("data-theme")}function resetTheme(){darkSwitch.checked?(document.body.setAttribute("data-theme","dark"),localStorage.setItem("darkSwitch","dark")):(document.body.removeAttribute("data-theme"),localStorage.removeItem("darkSwitch"))}window.addEventListener("load",()=>{darkSwitch&&(initTheme(),darkSwitch.addEventListener("change",()=>{resetTheme()}))});
 ;function showconfirmation () {
   document.getElementById('confirmation_alert').removeAttribute('style');
   
@@ -89,34 +51,6 @@ function hideconfirmation () {
                 $('.modal-body').css('opacity', '');
             }
         });
-    }
-}
-;function changeActive () {
-    if (window.location.pathname == "/about") {
-        document.getElementById("aboutNavbar").classList.add("active");
-        document.getElementById("weNavbar").classList.remove("active");
-        document.getElementById("projectsNavbar").classList.remove("active");
-        document.getElementById("extraNavbar").classList.remove("active");
-    } else if (window.location.pathname == "/work-experience") {
-        document.getElementById("weNavbar").classList.add("active");
-        document.getElementById("aboutNavbar").classList.remove("active");
-        document.getElementById("projectsNavbar").classList.remove("active");
-        document.getElementById("extraNavbar").classList.remove("active");
-    } else if (window.location.pathname == "/projects") {
-        document.getElementById("projectsNavbar").classList.add("active");
-        document.getElementById("weNavbar").classList.remove("active");
-        document.getElementById("aboutNavbar").classList.remove("active");
-        document.getElementById("extraNavbar").classList.remove("active");
-    } else if (window.location.pathname == "/extracurricular") {
-        document.getElementById("extraNavbar").classList.add("active");
-        document.getElementById("weNavbar").classList.remove("active");
-        document.getElementById("projectsNavbar").classList.remove("active");
-        document.getElementById("aboutNavbar").classList.remove("active");
-    } else {
-        document.getElementById("aboutNavbar").classList.remove("active");
-        document.getElementById("weNavbar").classList.remove("active");
-        document.getElementById("projectsNavbar").classList.remove("active");
-        document.getElementById("extraNavbar").classList.remove("active");
     }
 }
 ;
