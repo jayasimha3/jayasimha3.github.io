@@ -1332,7 +1332,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "a", 18);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "Version 2.0");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "Version 2.0.1");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -2371,9 +2371,9 @@
       WorkExperienceComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
         type: WorkExperienceComponent,
         selectors: [["app-work-experience"]],
-        decls: 97,
+        decls: 108,
         vars: 0,
-        consts: [["flex", "", 1, "container-xl"], [1, "jumbotron", "mb-3"], [1, "media"], ["src", "/assets/gm/gm.jpg", "alt", "General Motors", 1, "mr-3"], [1, "media-body"], [1, "lead", "text-break"], [1, "badge", "badge-primary", "float-right"], [1, "font-italic"], [1, "font-weight-light"], [1, "font-weight-normal"], [1, "my-4"], [1, "row"], [1, "col"], [1, "col-11", "justify-content-md-center"], [1, "blockquote"], [1, "mb-0"], [1, "blockquote-footer", "float-right"], [1, "card", "mb-3"], [1, "card-body", "text-dark", "text-center"], [1, "font-weight-bold"], [1, "font-weight-lighter"], ["href", "https://www.linkedin.com/in/jayasimha3/"], ["href", "https://osu.joinhandshake.com/users/11578467"], ["href", "https://my.indeed.com/p/risheej-w1nbb5b"], [1, "font-weight-muted"], [1, "card", "border-light", "mb-3", 2, "max-width", "100%"], [1, "card-body", "text-dark"], ["src", "/assets/ohiostate/blockO.png", "alt", "The Ohio State University", 1, "mr-3"], [1, "text-break"], ["type", "button", 1, "btn", "btn-sm", "btn-primary", "float-right"], [1, "badge", "badge-light"], [1, "font-weight-lighter", "text-break"], [1, "list-group"], [1, "row", "px-3"], ["src", "/assets/slu/stlouisuniv.png", "alt", "Saint Louis University", 1, "mr-3"], [1, "row", "px-3", "text-break"]],
+        consts: [["flex", "", 1, "container-xl"], [1, "jumbotron", "mb-3"], [1, "media"], ["src", "/assets/gm/gm.jpg", "alt", "General Motors", 1, "mr-3"], [1, "media-body"], [1, "lead", "text-break"], [1, "badge", "badge-primary", "float-right"], [1, "font-italic"], [1, "font-weight-light"], [1, "font-weight-normal"], [1, "my-4"], [1, "row"], [1, "col"], [1, "col-11", "justify-content-md-center"], [1, "blockquote"], [1, "mb-0"], [1, "card", "mb-3"], [1, "card-body", "text-dark", "text-center"], [1, "font-weight-bold"], [1, "font-weight-lighter"], ["href", "https://www.linkedin.com/in/jayasimha3/"], ["href", "https://osu.joinhandshake.com/users/11578467"], ["href", "https://my.indeed.com/p/risheej-w1nbb5b"], [1, "font-weight-muted"], [1, "card", "border-light", "mb-3", 2, "max-width", "100%"], [1, "card-body", "text-dark"], ["src", "/assets/ohiostate/blockO.png", "alt", "The Ohio State University", 1, "mr-3"], [1, "text-break"], ["type", "button", 1, "btn", "btn-sm", "btn-primary", "float-right"], [1, "badge", "badge-light"], [1, "font-weight-lighter", "text-break"], [1, "list-group"], [1, "row", "px-3"], ["src", "/assets/slu/stlouisuniv.png", "alt", "Saint Louis University", 1, "mr-3"], [1, "row", "px-3", "text-break"]],
         template: function WorkExperienceComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
@@ -2424,7 +2424,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "h6", 5);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, " As I have recently started, I do not have any information about my responsibilites as of January 2021. I have pasted part of the job desciption below: ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, " I am a new college hire and currently work on the Global Storage Operations team. ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -2438,123 +2438,45 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "p", 15);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, " The Software Developer is responsible for developing solutions that drive innovation and competitive advantage. The role encompasses writing code to build and support GM\u2019s systems, applications, and platforms as well as configuring, optimizing, and deploying packaged software (COTS). The role will interface with other project developers and architects to ensure that designs and quality are meeting GM requirements. Each Developer is envisioned to be part of the full SDLC of a project: from initiation through deployment. Responsible for developing software applications using sound, repeatable, industry best practices and in accordance with GM\u2019s software development project methodology. Under the mentorship of more senior developers, will work hands-on writing software or solutions, based on detailed requirements and system specifications. Development activities will include updating existing software and/or developing new software solutions to address a specific need or seek a particular business problem. This role will contribute to all development activities in accordance with appropriate methodologies and application of a repeatable, systematic and quantifiable approach to the development process. ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, " As part of the Storage Operations team, I work with a variety of SAN, NAS, and BUR storage servers. We reactively and proactively work with vendors, like Dell and HP, to replace devices like disks and dimms. Storage devices I have worked with include: ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "footer", 16);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "ul");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, "Entry Level Software Developer (JR-000003256) Role Job Description");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, "PowerFlex");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](26, "div", 12);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, "XtremeIO");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "div", 17);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "div", 18);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "h6", 19);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, "I am not actively looking for an opportunities at this time.");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, "Isilon");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "h6", 20);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, " However, I am still open to considering new opportunities, so please contact me if you are interested in hiring me. You may use the contact button above, or see my ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "a", 21);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](34, "LinkedIn Profile");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, "ECS");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, ", my ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "a", 22);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](37, "Handshake Profile");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](34, "3Par");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](38, ", or my ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "a", 23);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](40, "Indeed Profile");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, ". ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "h6", 24);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](43, " Below are some emplyment opportunities I had worked while in college (or in high school). ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "div", 25);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "div", 26);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "div", 2);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](47, "img", 27);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "div", 4);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "h6", 28);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](50, " Software 2 Grader ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](51, "button", 29);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](52, " Duration ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "span", 30);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](54, " May 2018-July 2019 ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](55, "h6", 7);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](56, "Department of Computer Science, The Ohio State University");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "h6", 31);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](58, "ul", 32);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "li", 33);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](60, "Graded homework and projects in software development with Java. Projects included implementing classes, and coding efficiently.");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](61, "li", 33);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](62, "Guided student on software development techniques through grading and office hours.");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](36, "Brocade/Cisco SAN Switches");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -2564,53 +2486,109 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](37, "div", 12);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "div", 16);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "div", 17);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "h6", 18);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, "I am not actively looking for an opportunities at this time.");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "h6", 19);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](43, " However, I am still open to considering new opportunities, so please contact me if you are interested in hiring me. You may use the contact button above, or see my ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "a", 20);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](45, "LinkedIn Profile");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](46, ", my ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "a", 21);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](48, "Handshake Profile");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](49, ", or my ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "a", 22);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](51, "Indeed Profile");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](52, ". ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "h6", 23);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](54, " Below are some emplyment opportunities I had worked while in college (or in high school). ");
+
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](63, "div", 25);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](55, "div", 24);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](64, "div", 26);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](56, "div", 25);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "div", 2);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "div", 2);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](66, "img", 27);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](58, "img", 26);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "div", 4);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "div", 4);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](68, "h6", 28);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](60, "h6", 27);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](69, " Office Assistant ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](61, " Software 2 Grader ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](70, "button", 29);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "button", 28);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](71, " Duration ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](63, " Duration ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](72, "span", 30);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](64, "span", 29);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](73, " August 2016-October 2017 ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](65, " May 2018-July 2019 ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](74, "h6", 7);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](75, "Office of Student Life, The Ohio State University");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](66, "h6", 7);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](67, "Department of Computer Science, The Ohio State University");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](76, "h6", 31);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](68, "h6", 30);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](77, "ul", 32);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](69, "ul", 31);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](78, "li", 33);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](70, "li", 32);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](79, "Performed customer service activities including logging mail, issuing loaner keys, and issuing equipment.");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](71, "Graded homework and projects in software development with Java. Projects included implementing classes, and coding efficiently.");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](72, "li", 32);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](73, "Guided student on software development techniques through grading and office hours.");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -2626,27 +2604,47 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](80, "div", 25);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](74, "div", 24);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](81, "div", 26);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](75, "div", 25);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](82, "div", 2);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](76, "div", 2);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](83, "img", 34);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](77, "img", 26);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](84, "div", 4);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](78, "div", 4);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](85, "h6", 28);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](79, "h6", 27);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](86, " Intern ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](80, " Office Assistant ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](87, "button", 29);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](81, "button", 28);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](88, " Duration ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](82, " Duration ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](89, "span", 30);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](83, "span", 29);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](90, " June-July 2014 ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](84, " August 2016-October 2017 ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](85, "h6", 7);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](86, "Office of Student Life, The Ohio State University");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](87, "h6", 30);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](88, "ul", 31);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](89, "li", 32);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](90, "Performed customer service activities including logging mail, issuing loaner keys, and issuing equipment.");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -2654,19 +2652,55 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](91, "h6", 7);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](92, "Space Systems Research Lab, Saint Louis University");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](93, "h6", 31);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](94, "ul", 32);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](95, "li", 35);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](91, "div", 24);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](96, " Tasked with solving the vague problem of turning a satellite on and off without entering the clean room, I built a remote on/off switch using a solenoid and pen. ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](92, "div", 25);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](93, "div", 2);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](94, "img", 33);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](95, "div", 4);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](96, "h6", 27);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](97, " Intern ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](98, "button", 28);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](99, " Duration ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](100, "span", 29);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](101, " June-July 2014 ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](102, "h6", 7);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](103, "Space Systems Research Lab, Saint Louis University");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](104, "h6", 30);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](105, "ul", 31);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](106, "li", 34);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](107, " Tasked with solving the vague problem of turning a satellite on and off without entering the clean room, I built a remote on/off switch using a solenoid and pen. ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -2803,7 +2837,7 @@
     /***/
     function _(module, exports, __webpack_require__) {
       module.exports = __webpack_require__(
-      /*! /mnt/e/user items/my docs/website/personalwebsite/src/main.ts */
+      /*! /mnt/e/user items/My Docs/Website/PersonalWebsite/src/main.ts */
       "./src/main.ts");
       /***/
     }

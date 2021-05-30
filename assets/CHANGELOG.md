@@ -1,5 +1,8 @@
 # Changelog
 
+## Version 2.0.1
+- updated GM work info with more acurate information
+
 ## Version 2.dev
 - updated GM work info on home, about, and work experience pages
 - added indeed profile

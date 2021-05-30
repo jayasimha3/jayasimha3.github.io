@@ -533,9 +533,9 @@ module.exports = content.locals || {};
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /mnt/e/user items/my docs/website/personalwebsite/src/styles.css */"./src/styles.css");
-__webpack_require__(/*! /mnt/e/user items/my docs/website/personalwebsite/node_modules/bootstrap/dist/css/bootstrap.min.css */"./node_modules/bootstrap/dist/css/bootstrap.min.css");
-module.exports = __webpack_require__(/*! /mnt/e/user items/my docs/website/personalwebsite/src/css/dark-mode.css */"./src/css/dark-mode.css");
+__webpack_require__(/*! /mnt/e/user items/My Docs/Website/PersonalWebsite/src/styles.css */"./src/styles.css");
+__webpack_require__(/*! /mnt/e/user items/My Docs/Website/PersonalWebsite/node_modules/bootstrap/dist/css/bootstrap.min.css */"./node_modules/bootstrap/dist/css/bootstrap.min.css");
+module.exports = __webpack_require__(/*! /mnt/e/user items/My Docs/Website/PersonalWebsite/src/css/dark-mode.css */"./src/css/dark-mode.css");
 
 
 /***/ })
